@@ -1,5 +1,12 @@
 module IntegralHistograms
 
-greet() = print("Hello World!")
+using StatsBase, Images
+
+include("algorithm.jl")
+
+export
+	# main types and functions
+	integralimage,
+	integralhistogram
 
 end # module
